@@ -41,3 +41,6 @@ looks like this:
 This will mean that git only tracks stuff in the scripts and reports
 directories. Note that the figures directory (inside the reports directory)
 will also not be tracked.
+
+Git doesn't recognise empty directories, so I include a hidden file called
+`.placeholder` in all directories to make them show up here
