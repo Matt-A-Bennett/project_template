@@ -1,11 +1,11 @@
-# start by ignoring all root files and all root directories
-/*
-/*/
+# # start by ignoring all root files and all root directories
+# /*
+# /*/
 
-# then explicitly un-ignore the things I want
-!.gitignore
-!/scripts
-!/reports
-/reports/figures
-!*.md
-!*.placeholder
+# # then explicitly un-ignore the things I want
+# !.gitignore
+# !/scripts
+# !/reports
+# /reports/figures
+# !*.md
+# !*.placeholder
