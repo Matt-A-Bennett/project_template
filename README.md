@@ -8,13 +8,13 @@
 │   ├── processed_data
 │   └── raw_data
 ├── misc
-├── project_description.md
-├── README.md
 ├── reports
 │   └── figures
 ├── scripts
 │   ├── python
 │   └── r
+├── project_description.md
+├── README.md
 └── todo.md
 ```
 
