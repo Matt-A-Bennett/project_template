@@ -7,9 +7,8 @@
 ├── data
 │   ├── processed_data
 │   └── raw_data
-├── description.md
 ├── misc
-├── models
+├── project_description.md
 ├── README.md
 ├── reports
 │   └── figures
@@ -20,9 +19,13 @@
 ```
 
 ## using this template
-Once you have forked this template as a repository and cloned it onto your
-local machine, the first thing to do is uncomment the .gitignore file so it
-looks like this:
+The `.gitignore` file only has been configured to only track stuff in the
+scripts and reports directories (and any markdown files). Note that the figures
+directory (inside the reports directory) will also not be tracked.
+
+If you add a new directory and want it to be tracked by git (or if you want
+e.g. the `misc` directory to be tracked), you have to explicitly add it to the
+`.gitignore`  file like so:
 
 ```
 # start by ignoring all root files and all root directories
@@ -36,11 +39,11 @@ looks like this:
 /reports/figures
 !*.md
 !*.placeholder
-```
 
-This will mean that git only tracks stuff in the scripts and reports
-directories. Note that the figures directory (inside the reports directory)
-will also not be tracked.
+# I want the following directory to be tracked by git
+!/my_new_dir
+```
 
 Git doesn't recognise empty directories, so I include a hidden file called
 `.placeholder` in all directories to make them show up here
+
