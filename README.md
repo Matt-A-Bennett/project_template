@@ -19,13 +19,13 @@
 ```
 
 ## using this template
-The `.gitignore` file only has been configured to only track stuff in the
-scripts and reports directories (and any markdown files). Note that the figures
+The `.gitignore` file has been configured to only track stuff in the scripts
+and reports directories (and any markdown files). Note that the figures 
 directory (inside the reports directory) will also not be tracked.
 
 If you add a new directory and want it to be tracked by git (or if you want
-e.g. the `misc` directory to be tracked), you have to explicitly add it to the
-`.gitignore`  file like so:
+e.g. the `misc` directory to be tracked), you have to explicitly add an
+exception to the `.gitignore`  file like so:
 
 ```
 # start by ignoring all root files and all root directories
@@ -40,7 +40,7 @@ e.g. the `misc` directory to be tracked), you have to explicitly add it to the
 !*.md
 !*.placeholder
 
-# I want the following directory to be tracked by git
+# I also want to have following directory to be tracked by git
 !/my_new_dir
 ```
 
