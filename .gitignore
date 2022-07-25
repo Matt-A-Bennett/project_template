@@ -6,6 +6,6 @@
 !.gitignore
 !/scripts
 !/reports
-/reports/figures
+/reports/images
 !*.md
 !*.placeholder

@@ -9,7 +9,7 @@
 │   └── raw_data
 ├── misc
 ├── reports
-│   └── figures
+│   └── images
 ├── scripts
 │   ├── python
 │   └── r
@@ -20,7 +20,7 @@
 
 ## using this template
 The `.gitignore` file has been configured to only track stuff in the scripts
-and reports directories (and any markdown files). Note that the figures 
+and reports directories (and any markdown files). Note that the images 
 directory (inside the reports directory) will also not be tracked.
 
 If you add a new directory and want it to be tracked by git (or if you want
@@ -36,7 +36,7 @@ exception to the `.gitignore`  file like so:
 !.gitignore
 !/scripts
 !/reports
-/reports/figures
+/reports/images
 !*.md
 !*.placeholder
 
