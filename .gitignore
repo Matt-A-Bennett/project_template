@@ -4,8 +4,15 @@
 
 # then explicitly un-ignore the things I want
 !.gitignore
+
+!*.placeholder
+!*.md
+
+# keep anything in scripts except Rmarkdown cache directory
 !/scripts
+/scripts/r/*_cache/
+
+# keep anything in reports except Rmarkdown figures
 !/reports
 /reports/images
-!*.md
-!*.placeholder
+/reports/*_files/figure-html/
