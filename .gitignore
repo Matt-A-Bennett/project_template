@@ -10,6 +10,7 @@
 
 # keep anything in scripts except Rmarkdown cache directory
 !/scripts
+!/notes
 /scripts/r/*_cache/
 
 # keep anything in reports except Rmarkdown figures
