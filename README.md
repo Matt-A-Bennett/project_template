@@ -8,6 +8,7 @@ project_name/
 │   ├── processed_data
 │   └── raw_data
 ├── misc
+├── notes
 ├── reports
 │   └── images
 ├── scripts
@@ -34,11 +35,21 @@ exception to the `.gitignore`  file like so:
 
 # then explicitly un-ignore the things I want
 !.gitignore
+
+!*.placeholder
+!*.md
+
+# keep anything in scripts except Rmarkdown cache directory
 !/scripts
+/scripts/r/*_cache/
+
+# keep anything in notes
+!/notes
+
+# keep anything in reports except Rmarkdown figures
 !/reports
 /reports/images
-!*.md
-!*.placeholder
+/reports/*_files/figure-html/
 
 # I also want to have following directory to be tracked by git
 !/my_new_dir

@@ -12,6 +12,9 @@
 !/scripts
 /scripts/r/*_cache/
 
+# keep anything in notes
+!/notes
+
 # keep anything in reports except Rmarkdown figures
 !/reports
 /reports/images
