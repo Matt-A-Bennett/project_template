@@ -8,6 +8,7 @@ project_name/
 │   ├── processed_data
 │   └── raw_data
 ├── misc
+├── notes
 ├── reports
 │   └── images
 ├── scripts
@@ -40,8 +41,10 @@ exception to the `.gitignore`  file like so:
 
 # keep anything in scripts except Rmarkdown cache directory
 !/scripts
-!/notes
 /scripts/r/*_cache/
+
+# keep anything in notes
+!/notes
 
 # keep anything in reports except Rmarkdown figures
 !/reports
